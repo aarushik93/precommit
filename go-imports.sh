@@ -9,5 +9,6 @@ fi
 for FILE in $STAGED_GO_FILES
 do
   goimports -w $FILE
+  git add $FILE
 done
 
