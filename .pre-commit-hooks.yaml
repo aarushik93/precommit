@@ -3,7 +3,7 @@
     entry: go-fmt.sh
     files: '\.go$'
     language: 'script'
-    description: "Runs `gofmt`
+    description: "Runs `gofmt`"
 -   id: go-imports
     name: 'go imports'
     entry: go-imports.sh
