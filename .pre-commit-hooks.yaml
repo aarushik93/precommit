@@ -1,0 +1,35 @@
+-   id: go-fmt
+    name: 'go fmt'
+    entry: go-fmt.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `gofmt`
+-   id: go-imports
+    name: 'go imports'
+    entry: go-imports.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `goimports` on staged files"
+-   id: go-vet
+    name: 'go vet'
+    entry: go-vet.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `go vet`"
+-   id: golangci-lint
+    name: 'golangci-lint'
+    entry: go-lint-cli.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `golangci-lint run`, go get -u github.com/golangci/golangci-lint/cmd/golangci-lint"
+-   id: go-unit-tests
+    name: 'go-unit-tests'
+    entry: go-unit-tests.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `go test`"
+-   id: check-secrets
+    name: 'check-secrets'
+    entry: check-secrets.sh
+    language: 'script'
+    description: "Checks for secrets"
